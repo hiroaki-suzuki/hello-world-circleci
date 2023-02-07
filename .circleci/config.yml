@@ -1,0 +1,14 @@
+version 2.1
+
+jobs:
+  hello-jobs
+    macos:
+      xcode: 13.4.1
+    steps:
+      - checkout
+      - run: echo "hello world"
+
+workflows:
+  my-workflow:
+    jobs:
+      - hello-jobs
