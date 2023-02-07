@@ -1,7 +1,7 @@
 version 2.1
 
 jobs:
-  hello-jobs
+  hello-jobs:
     macos:
       xcode: 13.4.1
     steps:
